@@ -1,0 +1,42 @@
+{
+  "id": "devops-tools/statusline-variations",
+  "name": "StatusLine Variations",
+  "version": "1.0.0",
+  "description": "Professional statusline configurations for DevOps teams with multiple presets: minimal, developer, and detailed views including time, model, branch, and cost tracking.",
+  "category": "devops-tools",
+  "compatibility": {
+    "claudeCode": true,
+    "cursor": false,
+    "windsurf": false,
+    "copilot": false,
+    "other": []
+  },
+  "author": {
+    "name": "Skywind Platform",
+    "email": "devops@skywind.com"
+  },
+  "keywords": [
+    "statusline",
+    "devops",
+    "monitoring",
+    "cost-tracking",
+    "git-branch",
+    "visibility",
+    "session-management"
+  ],
+  "license": "MIT",
+  "installationPath": {
+    "claudeCode": ".claude/statusline-scripts/"
+  },
+  "dependencies": [],
+  "conflictsWith": [],
+  "tags": [
+    "recommended",
+    "stable",
+    "enterprise",
+    "devops"
+  ],
+  "changelog": "CHANGELOG.md",
+  "createdAt": "2025-10-14T00:00:00Z",
+  "updatedAt": "2025-10-14T00:00:00Z"
+}
