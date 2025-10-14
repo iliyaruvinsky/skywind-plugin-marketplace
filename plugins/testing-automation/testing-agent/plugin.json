@@ -1,0 +1,55 @@
+{
+  "id": "testing-automation/testing-agent",
+  "name": "Testing Agent Rules",
+  "version": "1.0.0",
+  "description": "Comprehensive testing rules for AI agents working with SAPUI5, ABAP, OData, Java, JavaScript, and React. Enforces testing best practices, test-driven development, and quality assurance standards.",
+  "category": "testing-automation",
+  "compatibility": {
+    "claudeCode": true,
+    "cursor": true,
+    "windsurf": true,
+    "copilot": false,
+    "other": ["Cline", "Aider"]
+  },
+  "author": {
+    "name": "Skywind Platform",
+    "email": "devops@skywind.com"
+  },
+  "keywords": [
+    "testing",
+    "qa",
+    "quality-assurance",
+    "tdd",
+    "unit-testing",
+    "integration-testing",
+    "e2e-testing",
+    "sap",
+    "sapui5",
+    "abap",
+    "odata",
+    "java",
+    "javascript",
+    "react",
+    "junit",
+    "jest",
+    "qunit"
+  ],
+  "license": "MIT",
+  "installationPath": {
+    "claudeCode": ".claude/rules/",
+    "cursor": ".cursorrules",
+    "windsurf": ".windsurf/rules/"
+  },
+  "dependencies": [],
+  "conflictsWith": [],
+  "tags": [
+    "recommended",
+    "stable",
+    "enterprise",
+    "testing",
+    "quality"
+  ],
+  "changelog": "CHANGELOG.md",
+  "createdAt": "2025-10-14T00:00:00Z",
+  "updatedAt": "2025-10-14T00:00:00Z"
+}
