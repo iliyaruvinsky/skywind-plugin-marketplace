@@ -128,9 +128,9 @@ Git, CI/CD, PR standards, team collaboration
 Performance optimization guidelines
 - Coming soon
 
-### 🧪 testing
+### 🧪 testing-automation
 TDD, test coverage, quality assurance
-- Coming soon
+- `testing-agent` - Comprehensive testing rules for SAPUI5, ABAP, OData, Java, JavaScript, React
 
 ### 📚 documentation
 Documentation standards, inline comments
@@ -153,6 +153,31 @@ Prevents AI assistants from reporting false completions. Enforces mandatory veri
 - Result: Accurate work, first time
 
 [Install Now](plugins/anti-hallucination/strict-verification/)
+
+## Featured Plugin: Testing Agent
+
+**Comprehensive testing automation for enterprise development**
+
+The Testing Agent plugin provides complete testing rules for AI agents working across multiple technology stacks including SAP and modern web frameworks.
+
+**Supported Technologies:**
+- **SAP**: SAPUI5 (QUnit, OPA5), ABAP (ABAP Unit, ATC), OData
+- **Web**: Java (JUnit 5), JavaScript (Jest), React (React Testing Library)
+
+**Key Features:**
+- Testing pyramid enforcement (70% unit, 20% integration, 10% E2E)
+- Technology-specific best practices from SAP Community & official docs
+- Honest test result reporting
+- Quality gates with coverage requirements
+- CI/CD integration guidelines
+
+**Use Cases:**
+- DevOps teams working with SAP development
+- Teams building SAPUI5 applications
+- Full-stack development with React + Java backends
+- Enterprise quality assurance automation
+
+[Learn More](plugins/testing-automation/testing-agent/)
 
 ## For DevOps Teams
 
@@ -197,6 +222,7 @@ Plugins install to different locations based on the tool:
 | Plugin | Claude Code | Cursor | Windsurf | Copilot |
 |--------|------------|--------|----------|---------|
 | strict-verification | ✅ | ✅ | ✅ | ❌ |
+| testing-agent | ✅ | ✅ | ✅ | ❌ |
 
 ## Benefits
 
@@ -282,8 +308,10 @@ A: If it reads rule files (like .cursorrules), it should work. Test and let us k
 - [x] Core marketplace structure
 - [x] Anti-hallucination plugins
 - [x] Installation scripts
+- [x] Testing automation plugins
 - [ ] Code quality plugins
 - [ ] Security plugins
+- [ ] DevOps workflow plugins
 - [ ] Web-based catalog interface
 - [ ] Plugin dependency management
 - [ ] Version compatibility checker
