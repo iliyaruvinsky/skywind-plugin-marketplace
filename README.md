@@ -110,7 +110,7 @@ node scripts/list-plugins.js
 
 ### 🎯 anti-hallucination
 Rules to reduce AI hallucinations and improve accuracy
-- `strict-verification` - Mandatory file verification before claiming success
+- `strict-verification` v1.1.0 - Mandatory file verification + constructive debate mandate (11 rules)
 
 ### 🏗️ code-quality
 Standards for clean, maintainable code
@@ -136,11 +136,21 @@ TDD, test coverage, quality assurance
 Documentation standards, inline comments
 - Coming soon
 
-## Featured Plugin: Strict Verification Rules
+### 🛠️ marketplace-tools
+Tools for marketplace development and plugin creation
+- `plugin-development-agent` v1.0.0 - 8-phase lifecycle for creating high-quality plugins
+
+## Featured Plugin: Strict Verification Rules v1.1.0
 
 **The most important plugin for any serious project**
 
-Prevents AI assistants from reporting false completions. Enforces mandatory verification after every file change.
+Prevents AI assistants from reporting false completions. Enforces mandatory verification after every file change. **NEW in v1.1.0:** Rule 11 - Constructive Debate Mandate for proactive challenge of assumptions.
+
+**11 Mandatory Rules:**
+- Verification before claiming
+- Honest reporting with proof
+- Cost consciousness
+- **NEW: Constructive debate - challenge assumptions, argue for better solutions**
 
 **Before:**
 - AI: "I've updated all 10 files"
@@ -196,7 +206,8 @@ Plugins install to different locations based on the tool:
 
 | Plugin | Claude Code | Cursor | Windsurf | Copilot |
 |--------|------------|--------|----------|---------|
-| strict-verification | ✅ | ✅ | ✅ | ❌ |
+| strict-verification v1.1.0 | ✅ | ✅ | ✅ | ❌ |
+| plugin-development-agent | ✅ | ✅ | ✅ | ❌ |
 
 ## Benefits
 

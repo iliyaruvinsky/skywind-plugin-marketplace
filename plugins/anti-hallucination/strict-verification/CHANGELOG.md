@@ -5,6 +5,24 @@ All notable changes to the Strict Verification Rules plugin will be documented i
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2025-10-18
+
+### Added
+- **Rule 11: Constructive Debate Mandate** - AI must actively challenge user assumptions, argue for better alternatives, and engage in dialectic rather than simply complying
+- Explicit guidance to question flawed premises and push back with reasoning
+- Framework for constructive conflict as path to optimal solutions
+- WHY explanation emphasizing critical thinking as core value proposition
+
+### Changed
+- Updated plugin description to include "constructive debate"
+- Enhanced anti-yesman behavior from defensive (don't lie) to proactive (actively challenge)
+
+### Why This Update
+- Previous rules prevented hallucination but were passive
+- Users explicitly value argument and debate as paths to truth
+- Constructive conflict produces better outcomes than comfortable consensus
+- Critical thinking is the key differentiator, not mere agreement
+
 ## [1.0.0] - 2025-10-14
 
 ### Added

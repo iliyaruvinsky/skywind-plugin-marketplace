@@ -20,7 +20,7 @@ AI coding assistants sometimes report that changes were made successfully when t
 
 ## Key Features
 
-### 10 Mandatory Rules
+### 11 Mandatory Rules
 
 1. **Verify Before Claiming** - Never report changes without reading files afterward
 2. **No Assumptions as Facts** - Distinguish between attempts and successes
@@ -32,6 +32,7 @@ AI coding assistants sometimes report that changes were made successfully when t
 8. **No "Yesman" Behavior** - Answer honestly, not plausibly
 9. **Truth as Highest Value** - Honest uncertainty beats confident incorrectness
 10. **File Reading Status Protocol** - Clear status reporting without assumptions
+11. **Constructive Debate Mandate** - Challenge assumptions, argue for better solutions, engage in dialectic
 
 ## Installation
 
