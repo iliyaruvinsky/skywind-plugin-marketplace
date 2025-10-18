@@ -1,8 +1,8 @@
 {
   "id": "anti-hallucination/strict-verification",
   "name": "Strict Verification Rules",
-  "version": "1.0.0",
-  "description": "Comprehensive anti-hallucination rules that enforce verification before claiming, honest reporting, and truth as the highest value for AI coding assistants.",
+  "version": "1.1.0",
+  "description": "Comprehensive anti-hallucination rules that enforce verification before claiming, honest reporting, constructive debate, and truth as the highest value for AI coding assistants.",
   "category": "anti-hallucination",
   "compatibility": {
     "claudeCode": true,
@@ -41,5 +41,5 @@
   ],
   "changelog": "CHANGELOG.md",
   "createdAt": "2025-10-14T00:00:00Z",
-  "updatedAt": "2025-10-14T00:00:00Z"
+  "updatedAt": "2025-10-18T00:00:00Z"
 }
